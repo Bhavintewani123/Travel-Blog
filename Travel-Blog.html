@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <style>
+        /* Reset Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #34495e;
+            color: #ecf0f1;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .blog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .blog-item {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            flex: 1 1 calc(33% - 2rem);
+            min-width: 300px;
+        }
+
+        .blog-item img {
+            width: 100%;
+            height: 440px;
+        }
+
+        .blog-item .content {
+            padding: 1rem;
+        }
+
+        .blog-item h2 {
+            margin: 0 0 0.5rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .blog-item p {
+            margin: 0 0 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #34495e;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p a{
+            background: #34495e;
+            color: #ecf0f1;
+            
+        }
+
+        @media (max-width: 768px) {
+            .blog {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Explore the World</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="blog">
+            <!-- Blog 1 -->
+
+            <div class="blog-item">
+                <img src="great-wall.jpg" alt="Great Wall of China">
+                <div class="content">
+                    <h2>Great Wall of China</h2>
+                    <p>One of the greatest wonders of the world, the Great Wall of China stretches over 13,000 miles. It is a testament to China's rich history and architectural brilliance.</p>
+                </div>
+            </div>
+
+            <!-- Blog 2 -->
+
+            <div class="blog-item">
+                <img src="Eiffel Tower, Paris.jpg" alt="Eiffel Tower">
+                <div class="content">
+                    <h2>Eiffel Tower, Paris</h2>
+                    <p>The Eiffel Tower is a global cultural icon of France and one of the most recognizable structures in the world. A must-visit for anyone traveling to Paris!</p>
+                </div>
+            </div>
+            
+            <!-- Blog 3 -->
+            <div class="blog-item">
+                <img src="grand-canyon-usa.jpg" alt="Grand Canyon">
+                <div class="content">
+                    <h2>Grand Canyon, USA</h2>
+                    <p>The Grand Canyon is a natural wonder with stunning vistas and breathtaking views. Perfect for hiking, photography, and connecting with nature.</p>
+                </div>
+            </div>
+
+            <!-- Blog 4 -->
+            <div class="blog-item">
+                <img src="santorinii.jpg" alt="Santorini">
+                <div class="content">
+                    <h2>Santorini, Greece</h2>
+                    <p>Known for its white-washed buildings and blue domes, Santorini offers a romantic and picturesque getaway. Enjoy the sunset views and Aegean Sea breeze!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bhavin Tewani. All Rights Reserved. <a href="https://github.com/Bhavintewani123">GitHub</a></p>
+    </footer>
+</body>
+</html>
